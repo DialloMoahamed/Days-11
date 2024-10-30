@@ -46,3 +46,10 @@ const users = [
 for (const {name, scores, skills, age} of users) {
     console.log(name, scores, skills, age);
 }    
+
+
+// Reponse numero 2
+for (const {skills} of users) {
+    let filtre = users.filter((fil) => fil.skills.length < 2)
+    console.log(filtre);
+} 
