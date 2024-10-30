@@ -8,3 +8,14 @@ console.log(e, pi, gravity, humanBodyTemp, waterBoilingTemp);
 const countries = ['Finland', 'Estonia', 'Sweden', 'Denmark', 'Norway']
 let [fin, est, sw, den, nor] = countries
 console.log(fin, est, sw, den, nor);
+
+
+// Reponse numero 3
+const rectangle = {
+    width: 20,
+    height: 10,
+    area: 200,
+    perimeter: 60
+  }
+let {width, height, area, perimeter} = rectangle;
+console.log(width, height, area, perimeter);  
